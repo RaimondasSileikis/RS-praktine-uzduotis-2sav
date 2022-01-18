@@ -1,58 +1,96 @@
 body {
     margin: 0;
-    background-color:#fff;
+    background-color:white;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .content {
     width: 1000px;
-    float: left;
-    margin-top: 50px;
+    display: inline-block;
     margin: calc(50% - 500px);
-    display: inline-block;   
 }
-
-.label-1 {
+.label {
     float: left;
-    width: 20%;
-    margin-top: 100px;
-    margin-left: 5%;
+    width: 25%;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
-.title-1 {
-    margin-top: 10px;
+.title {
+    font-size: 20px;
+    color: rgb(255, 120, 96);
 }
 
-.label-2 {
-    float: left;
-    width: 20%;
-    margin-top: 100px;
-    margin-left: 5%;
+.img-1 {
+    width:160px;
+    height: 160px;
+    filter: invert();
+    background-color: tomato;       
+}
+.number-1 {
+    position:fixed;
+     margin-top: -180px;
+     margin-left: 5px;
+     width: 20px;
+     height: 20px;
+     padding: 5px;
+     border-radius: 30px;
+     border: 4px solid rgb(9, 127, 148);
+     background-color: white;
+    }
+
+.img-2 {
+    width:160px;
+    height: 160px;
+    filter:invert();
+    background:yellow;
 }
 
-.title-2 {
-    margin-top: 50px;
+.number-2 {
+position:fixed;
+ margin-top: -180px;
+ margin-left: 5px;
+ width: 20px;
+ height: 20px;
+ padding: 5px;
+ border-radius: 30px;
+ border: 4px solid rgb(35, 60, 173);
+ background-color: white
 }
 
-.label-3 {
-    float: left;
-    width: 20%;
-    margin-top: 100px;
-    margin-left: 5%;
+.img-3 {
+    width: 160px;
+    height: 160px;
+    filter: invert();
+    background-color:turquoise;
 }
 
-.title-3 {
-    margin-top: 30px;
-    
-}
-.label-4 {
-    float: left;
-    width: 20%;
-    margin-top: 100px;
-    margin-left: 5%;
+.number-3 {
+    position:fixed;
+     margin-top: -180px;
+     margin-left: 5px;
+     width: 20px;
+     height: 20px;
+     padding: 5px;
+     border-radius: 30px;
+     border: 4px solid rgb(184, 79, 18);
+     background-color: white;
+    }
+
+.img-4 {
+    width:160px;
+    height: 160px; 
 }
 
-.title-4 {
-    margin: 10px;
-}
+.number-4 {
+    position:fixed;
+     margin-top: -180px;
+     margin-left: 5px;
+     width: 20px;
+     height: 20px;
+     padding: 5px;
+     border-radius: 30px;
+     border: 4px solid black;
+     background-color: white;
+    }
